@@ -7,11 +7,16 @@ main{
     display: flex;
     justify-content: center;
 }
+hr{
+    border: 1px solid #D1D1D1;
+    width: 807px;
+    margin-top: 29px;
+}
+/*-----------------Common Style ------------- */
 .section-tittle{
     margin-left: 3px;
     margin-top: 3px;
     color: #562EFF;
-    ;
 }
 .container{
     background-color: #Ffffff;
@@ -34,4 +39,34 @@ main{
 }
 .player h3{
     margin-left: 16px;
+}
+
+/* ------------Bloges Style -------------- */
+.bloges{
+    margin-top: 11.80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.thumbline img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-info h3{
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+.blog-info p{
+    font-size: 16px;
+    margin:0px;
+}
+strong{
+    color: #562EFF;
 }
