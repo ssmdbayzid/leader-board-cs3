@@ -30,4 +30,8 @@ main{
 .player img{
     width: 56px;
     height: 56px;
+    border-radius: 50%;
+}
+.player h3{
+    margin-left: 16px;
 }
